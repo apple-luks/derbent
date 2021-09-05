@@ -274,3 +274,7 @@ body {
 .comments-container {
     text-align: center;
 }
+
+.review-video {
+    border-radius:20px;
+}
