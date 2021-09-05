@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./js/script.js">
+    <link rel="stylesheet" href="./js/package.json">
+    <title>Каталог</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header-nav">
+            <a class="header-nav-link" href="./index.html">Каталог</a>
+            <a class="header-nav-link" href="./reviews.html">Обзоры</a>
+            <a class="header-nav-link" href="./comment.html">Отзывы</a>
+        </nav>
+    </header>
+    <h1 class="main-heading">
+        Каталог
+    </h1>
+    
+    <div class="product-container">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./img/Watch6/Watch-0-.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/Watch6/watch-0.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/Watch6/watch-1.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/Watch6/watch-2.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/Watch6/watch-3.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/Watch6/watch-4.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/Watch6/watch-5.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/Watch6/watch-6 2.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/Watch6/watch-7.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/Watch6/watch-8.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/Watch6/watch-9.jpg" alt="">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <h2 class="product-name">
+              Watch 6
+          </h2>
+    
+          <h2 class="product-price">
+              2 900 ₽
+          </h2>
+          <div class="button-wrapper">
+            <button class="buy-button">
+                <a class="buy-button-a" target="_blank" href="https://instagram.com/apple_luks?utm_medium=copy_link">Купить</a>
+            </button>
+          </div>
+    </div>   
+    
+    <div class="product-container">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./img/AirPodsPro/pro-case.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/AirPodsPro/pro.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/AirPodsPro/pro-out.jpg" alt="">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <h2 class="product-name">
+              AirPodsPro
+          </h2>
+    
+          <h2 class="product-price">
+              2 500 ₽
+          </h2>
+          <div class="button-wrapper">
+            <button class="buy-button">
+                <a class="buy-button-a" target="_blank" href="https://instagram.com/apple_luks?utm_medium=copy_link">Купить</a>
+            </button>
+          </div>
+    </div>
+
+    <div class="product-container">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./img/AirPods2/2-case.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/AirPods2/pods2.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/AirPods2/2-out.jpg" alt="">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <h2 class="product-name">
+              AirPods 2
+          </h2>
+    
+          <h2 class="product-price">
+              1 900 ₽
+          </h2>
+          <div class="button-wrapper">
+            <button class="buy-button">
+                <a class="buy-button-a" target="_blank" href="https://instagram.com/apple_luks?utm_medium=copy_link">Купить</a>
+            </button>
+          </div>
+    </div>
+
+    <div class="product-container last">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./img/strap/strap-1.jpg" alt="">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <h2 class="product-name">
+            Ремешок "Миланское Плетение"
+          </h2>
+    
+          <h2 class="product-price">
+              400 ₽
+          </h2>
+          <div class="button-wrapper">
+            <button class="buy-button">
+                <a class="buy-button-a" target="_blank" href="https://instagram.com/apple_luks?utm_medium=copy_link">Купить</a>
+            </button>
+          </div>
+    </div>
+  
+      <!-- Swiper JS -->
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          pagination: {
+            el: ".swiper-pagination",
+            dynamicBullets: true,
+          },
+        });
+      </script>
+</body>
+</html>
